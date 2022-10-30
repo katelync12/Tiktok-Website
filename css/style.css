@@ -3,16 +3,45 @@
     height: 700px;
 }
 
+.apcsp {
+  height: 700px;
+}
+
+.apes {
+  height: 900px;
+}
+
+.tutoring {
+  height: 600px;
+}
+
 .selection {
     font-size: 2em;
     color: white;
     margin-bottom: 15px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 15px;
 }
 
-.row {
-    margin-bottom: -20px;
+.jumbotron {
+  position: relative;
+  background-color: #1D2731;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.title {
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.sat {
+  font-size: 90px;
 }
 
 .custom-row {
@@ -25,37 +54,11 @@
     margin-bottom: 5px;
 }
 
-.icon-two {
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 5px;
+a:link {
+  color: white;
 }
 
-.icon-three {
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 5px;
-}
 
-.icon-four {
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 5px;
-}
-
-.ap {
-    text-align: center;
-    color: white;
-    padding: 10px;
-    border-style: solid;
-    border-color: white;
-    border-width: 0.15em;
-    font-size: 1.4em;
-}
-
-.ap:hover {
-    background-color: #2b5b7b;
-}
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -64,26 +67,25 @@
     padding: 15px 10px;
   }
   
-  /* Style the header links */
-  .header a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  
-  /* Change the background color on mouse-over */
-  .header a:hover {
-    color: #8fafc6;
-  }
   
   /* Float the link section to the right */
   .header-right {
     float: right;
+  }
+
+  @media screen and (max-width: 900px) {
+    .apcsp {
+      height: 900px;
+    }
+    .apes {
+      height: 1250px;
+    }
+    .college-apps {
+      height: 800px;
+    }
+    .tutoring {
+      height: 750px;
+    }
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -96,4 +98,99 @@
     .header-right {
       float: none;
     }
+    .apcsp {
+      height: 1000px;
+    }
+    .apes {
+      height: 1400px;
+    }
+    .college-apps {
+      height: 900px;
+    }
+    .tutoring {
+      height: 800px;
+    }
   }
+
+
+  .mini-header {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .words {
+    color: white;
+    font-size: 1.1em;
+    margin-left: 20px;
+    font-weight: 200;
+  }
+
+  .question {
+    color: #8fafc6;
+    font-size: 1.15em;
+    margin-left: 20px;
+    font-weight: 600px;
+    margin-bottom: 0px;
+  }
+
+  .link {
+    color: white;
+  }
+
+  .paragraph {
+    margin-bottom: 0px;
+  }
+
+  .ap {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.15em;
+    font-size: 1.4em;
+}
+
+.ap:hover {
+  background-color: #305f81;
+  transition: all 0.3s linear;
+}
+
+.click {
+  color: white;
+}
+
+ /* Style the header links */
+ .header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Change the text color on mouse-over */
+.header a:hover {
+  color: #8fafc6;
+}
+
+.icon-one a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+.paragraph a {
+  text-decoration: underline;
+}
+
+.paragraph a:hover {
+  color: #8fafc6;
+}
