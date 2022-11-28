@@ -4,14 +4,70 @@
 }
 
 .apcsp {
-  height: 700px;
+  height: 750px;
 }
 
 .apes {
+  height: 1000px;
+}
+
+.aphug {
   height: 900px;
 }
 
 .tutoring {
+  height: 600px;
+}
+
+.apush {
+  height: 1250px;
+}
+
+.apwh {
+  height: 1150px;
+}
+
+.bio {
+  height: 1420px;
+}
+
+.calc {
+  height: 1000px;
+}
+
+.chem {
+  height: 1450px;
+}
+
+.gov {
+  height: 900px;
+}
+
+.lang {
+  height: 1050px;
+}
+
+.lit {
+  height: 900px;
+}
+
+.macro {
+  height: 1300px;
+}
+
+.physics {
+  height: 1000px;
+}
+
+.psych {
+  height: 1850px;
+}
+
+.stats {
+  height: 850px;
+}
+
+.home_page {
   height: 600px;
 }
 
@@ -78,7 +134,7 @@ a:link {
       height: 900px;
     }
     .apes {
-      height: 1250px;
+      height: 1400px;
     }
     .college-apps {
       height: 800px;
@@ -86,10 +142,53 @@ a:link {
     .tutoring {
       height: 750px;
     }
+    .aphug {
+      height: 1100px;
+    }
+    .apush {
+      height: 1750px;
+    }
+    .apwh {
+      height: 1600px;
+    }
+    .bio {
+      height: 2100px;
+    }
+    .calc {
+      height: 1500px;
+    }
+    .chem {
+      height: 2150px;
+    }
+    .gov {
+      height: 1250px;
+    }
+    .lang {
+      height: 1300px;
+    }
+    .lit {
+      height: 1150px;
+    }
+    .macro {
+      height: 1750px;
+    }
+    .physics {
+      height: 1400px;
+    }
+    .psych {
+      height: 2500px;
+    }
+    .stats {
+      height: 1150px;
+    }
+
+    .home_page {
+      height: 675px;
+    }
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     .header a {
       float: none;
       display: block;
@@ -99,16 +198,49 @@ a:link {
       float: none;
     }
     .apcsp {
-      height: 1000px;
+      height: 1050px;
     }
     .apes {
-      height: 1400px;
+      height: 1450px;
     }
     .college-apps {
       height: 900px;
     }
     .tutoring {
       height: 800px;
+    }
+    .aphug {
+      height: 1270px;
+    }
+    .apush {
+      height: 1800px;
+    }
+    .chem {
+      height: 2200px;
+    }
+    .gov {
+      height: 1300px;
+    }
+    .lang {
+      height: 1450px;
+    }
+    .lit {
+      height: 1250px;
+    }
+    .macro {
+      height: 1860px;
+    }
+    .physics {
+      height: 1450px;
+    }
+    .psych {
+      height: 2650px;
+    }
+    .stats {
+      height: 1200px;
+    }
+    .home_page {
+      height: 700px;
     }
   }
 
@@ -155,7 +287,22 @@ a:link {
     font-size: 1.4em;
 }
 
+.home {
+  text-align: center;
+  color: white;
+  padding: 30px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.3em;
+  font-size: 2em;
+}
+
 .ap:hover {
+  background-color: #305f81;
+  transition: all 0.3s linear;
+}
+
+.home:hover {
   background-color: #305f81;
   transition: all 0.3s linear;
 }
