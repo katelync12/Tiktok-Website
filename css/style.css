@@ -244,6 +244,87 @@ a:link {
     }
   }
 
+  @media screen and (max-width: 410px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+    .apcsp {
+      height: 1150px;
+    }
+    .apes {
+      height: 1550px;
+    }
+    .tutoring {
+      height: 1000px;
+    }
+    .aphug {
+      height: 1270px;
+    }
+    .apush {
+      height: 1950px;
+    }
+    .apwh {
+      height: 1800px;
+    }
+    .bio {
+      height: 2250px;
+    }
+    .calc {
+      height: 1600px;
+    }
+    .chem {
+      height: 2300px;
+    }
+    .gov {
+      height: 1400px;
+    }
+    .lang {
+      height: 1550px;
+    }
+    .lit {
+      height: 1400px;
+    }
+    .macro {
+      height: 2000px;
+    }
+    .physics {
+      height: 1650px;
+    }
+    .psych {
+      height: 2850px;
+    }
+    .stats {
+      height: 1350px;
+    }
+    .home_page {
+      height: 700px;
+    }
+    .ap_page {
+      height: 1250px;
+    }
+    .sat_page {
+      height: 1350px;
+    }
+    .college-apps {
+      height: 1000px;
+    }
+    .title {
+      font-size: 45px;
+      font-weight: 700;
+    }
+    .two_row {
+      padding-top: 50px;
+    }
+    .one_row {
+      padding-top: 90px;
+    }
+  }
+
 
   .mini-header {
     font-size: 1.5em;
